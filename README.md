@@ -205,7 +205,7 @@ Don't declare a series of variables on one line but rather split them up into in
 ## Naming
 Naming rules are very important in maintainable code. Objective-C method names tend to be very long, but this has the benefit that a block of code can almost read like prose, thus rendering many comments unnecessary.
 
-When writing pure Objective-C code, we mostly follow standard [Objective-C naming rules](http://developer.apple.com/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html).
+When writing pure Objective-C code, we mostly follow standard [Objective-C naming rules](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/CodingGuidelines/CodingGuidelines.html).
 
 Any class, category, method, or variable name may use all capitals for initialisms within the name. This follows Apple's standard of using all capitals within a name for initialisms such as URL, TIFF, and EXIF. An exception to this is when passing a URL as a _NSString_ we prefer to not to use all capitals. The reason for this is that a non all capitalized URL stands out as more obvious that the variable in question is a _NSString_ instead of a _NSURL_.
 
